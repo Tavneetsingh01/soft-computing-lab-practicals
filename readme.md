@@ -16,7 +16,11 @@
     </tr>
     <tr>
         <td style="border: 1px solid black; padding: 8px;"><b>Q2. Design and simulate the behaviour of OR Gate using Adaline Network in C for bipolar inputs and targets.</b></td>
-        <td style="border: 1px solid black; padding: 8px;"><a href="/Adaline_Network_For_OR_Gate_Bipolar_Inputs_and_Targets.c">Adaline Network For OR Gate Bipolar Inputs and Targets</a></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Adaline_Network_For_OR_Gate_Bipolar_Inputs_and_Targets.c">Adaline Network For OR Gate For Bipolar Inputs and Targets</a></td>
+    </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q3. Design and simulate the behaviour XOR Gate using Madaline network in C language for bipolar inputs and targets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Madaline_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c">Madaline Network For XOR Gate For Bipolar Inputs and Targets</a></td>
     </tr>
 </table>
 

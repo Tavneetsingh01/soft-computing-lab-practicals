@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 99)
 include_directories(.)
 
 add_executable(soft_computing_practicals
-        Adaline_Network_For_OR_Gate_Bipolar_Inputs_and_Targets.c)
+        Madaline_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c)
