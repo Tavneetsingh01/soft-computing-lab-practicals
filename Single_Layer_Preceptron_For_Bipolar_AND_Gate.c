@@ -7,7 +7,7 @@
 int main() {
     int x[NUM_PATTERNS][NUM_INPUTS], tar[NUM_PATTERNS];
     float w[NUM_INPUTS], wc[NUM_INPUTS], out = 0;
-    int i, j, k = 0, h = 0;
+    int i, j, k = 0, h = 1;
     float s = 0, b, bc, alpha = 0;
     float theta;
 
