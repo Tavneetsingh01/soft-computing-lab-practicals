@@ -36,7 +36,7 @@
 
 ### Windows (x86_64)
 1. Download the latest MinGW release from [MinGW Builds](https://github.com/niXman/mingw-builds-binaries/releases).
-2. Choose the `x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev1.7z` release for modern 64-bit systems  (note: the version might change in the future, but `x86_64_posix-seh-ucrt` is the main identifier).
+2. Choose the `x86_64-14.2.0-release-posix-seh-ucrt-rt_v12-rev2.7z` release for modern 64-bit systems  (note: the version might change in the future, but `x86_64_posix-seh-ucrt` is the main identifier).
 3. Extract the contents of the downloaded file to a directory of your choice.
 4. Add the `bin` directory of the extracted MinGW to your system's `PATH` environment variable:
     - Open the Start Menu, search for "Environment Variables", and select "Edit the system environment variables".
