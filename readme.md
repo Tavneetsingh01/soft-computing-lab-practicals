@@ -26,6 +26,10 @@
         <td style="border: 1px solid black; padding: 8px;"><b>Q4. Design and Simulate the Behaviour of XOR Gate Using Back-Propagation Network in c for Bipolar Inputs and Targets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Back_Propogation_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c">Back-Propagation Network For XOR Gate For Bipolar Inputs and Targets</a></td>
     </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q5. Write a program in C to Implement the various primitive operations of classical sets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Primitive_Operations_Of_Classical_Sets.c">Different primitive operations of classical sets.</a></td>
+    </tr>
 </table>
 
 ## Environment Setup (Setting up GCC)
