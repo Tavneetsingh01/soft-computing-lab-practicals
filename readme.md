@@ -30,6 +30,10 @@
         <td style="border: 1px solid black; padding: 8px;"><b>Q5. Write a program in C to Implement the various primitive operations of classical sets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Primitive_Operations_Of_Classical_Sets.c">Different primitive operations of classical sets.</a></td>
     </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q6. Write a program in C to implement and verify various Laws associated with Classical sets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Laws_Associated_With_Classical_Set.c">Different Laws Associated with classical sets.</a></td>
+    </tr>
 </table>
 
 ## Environment Setup (Setting up GCC)
