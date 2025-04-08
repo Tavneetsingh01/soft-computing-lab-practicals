@@ -12,7 +12,7 @@ int main() {
     int i, j, k, q = 1;
 
     // Input patterns to be entered by the user
-    printf("Enter the input patterns and targets for Bipolar AND Gate (-1 or 1):\n");
+    printf("Enter the input patterns and targets for Bipolar OR Gate (-1 or 1):\n");
     for (i = 0; i < NUM_PATTERNS; i++) {
         printf("Enter input pattern %d (x1 x2): ", i + 1);
         scanf("%d %d", &x[i][0], &x[i][1]);
