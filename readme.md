@@ -34,6 +34,10 @@
         <td style="border: 1px solid black; padding: 8px;"><b>Q6. Write a program in C to implement and verify various Laws associated with Classical sets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Laws_Associated_With_Classical_Set.c">Different Laws Associated with classical sets.</a></td>
     </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q7. Write a program in C to perform various primitive operations on Fuzzy Sets with Dynamic Components.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Primitive_Operations_Of_Fuzzy_Sets_With_Dynamic_Components.c">Different Primitive operations on Fuzzy Sets.</a></td>
+    </tr>
 </table>
 
 ## Environment Setup (Setting up GCC)
