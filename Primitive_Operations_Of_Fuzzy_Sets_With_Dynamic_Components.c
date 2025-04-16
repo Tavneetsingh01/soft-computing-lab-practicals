@@ -133,6 +133,34 @@ FuzzySet fuzzyComplement(FuzzySet set) {
     return result;
 }
 
+// Function to calculate the difference of two fuzzy sets (A - B)
+FuzzySet fuzzyDifference(FuzzySet set1, FuzzySet set2) {
+    if (set1.size != set2.size) {
+        printf("Error: Sets must have the same size for difference operation.\n");
+        exit(1);
+    }
+
+    FuzzySet result = createFuzzySet(set1.size);
+
+    printf("\n----- DIFFERENCE OPERATION DETAILS -----\n");
+    printf("Difference operation (A - B) uses the formula: min(A, 1-B) for each element\n");
+    printf("Difference operation (B - A) uses the formula: min(B, 1-A) for each element\n");
+
+    for (int i = 0; i < set1.size; i++) {
+        float complementB = 1.0 - set2.membership[i];
+        // Difference = min(A, complement of B)
+        result.membership[i] = (set1.membership[i] < complementB) ?
+                                set1.membership[i] : complementB;
+
+        printf("Element %d: min(%.2f, 1-%.2f) = min(%.2f, %.2f) = %.2f\n",
+               i + 1, set1.membership[i], set2.membership[i],
+               set1.membership[i], complementB, result.membership[i]);
+    }
+
+    printf("-------------------------------\n");
+    return result;
+}
+
 // Function to check if set1 is a subset of set2
 int fuzzySubset(FuzzySet set1, FuzzySet set2) {
     if (set1.size != set2.size) {
@@ -331,6 +359,8 @@ int main() {
     FuzzySet unionSet = fuzzyUnion(setA, setB);
     FuzzySet intersectionSet = fuzzyIntersection(setA, setB);
     FuzzySet complementSetA = fuzzyComplement(setA);
+    FuzzySet differenceSetA_B = fuzzyDifference(setA, setB);
+    FuzzySet differenceSetB_A = fuzzyDifference(setB, setA);
     FuzzySet algebraicSumSet = fuzzyAlgebraicSum(setA, setB);
     FuzzySet algebraicProductSet = fuzzyAlgebraicProduct(setA, setB);
 
@@ -342,6 +372,8 @@ int main() {
     displayFuzzySet(unionSet, "Union (A ∪ B)");
     displayFuzzySet(intersectionSet, "Intersection (A ∩ B)");
     displayFuzzySet(complementSetA, "Complement of A (A')");
+    displayFuzzySet(differenceSetA_B, "Difference (A - B)");
+    displayFuzzySet(differenceSetB_A, "Difference (B - A)");
     displayFuzzySet(algebraicSumSet, "Algebraic Sum");
     displayFuzzySet(algebraicProductSet, "Algebraic Product");
 
@@ -378,6 +410,8 @@ int main() {
     freeFuzzySet(unionSet);
     freeFuzzySet(intersectionSet);
     freeFuzzySet(complementSetA);
+    freeFuzzySet(differenceSetA_B);
+    freeFuzzySet(differenceSetB_A);
     freeFuzzySet(algebraicSumSet);
     freeFuzzySet(algebraicProductSet);
     freeFuzzySet(alphaCutSetA);
