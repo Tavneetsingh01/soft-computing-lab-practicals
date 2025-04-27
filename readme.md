@@ -42,6 +42,26 @@
         <td style="border: 1px solid black; padding: 8px;"><b>Q8. Write a program in C to verify various Laws associated with Fuzzy Sets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Laws_Associated_With_Fuzzy_Set.c">Laws Associated with Fuzzy Sets.</a></td>
     </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q9. Write a program in C to perform Cartesian product over two given Fuzzy Sets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Cartesian_Product_of_Two_Fuzzy_Sets.c">Cartesian Product Of Two Fuzzy Sets.</a></td>
+    </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q10. Write a program in C to perform Max-Min Composition of Two Matrices obtained from Cartesian Product.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Max_Min_Composition_Of_Cartesian_Product_Matrices.c">Max-Min Composition Of Cartesian Product Matrices.</a></td>
+    </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q11. Write a program in C to perform Max-Product Composition of Two Matrices obtained from Cartesian Product.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Max_Product_Composition_Of_Cartesian_Product_Matrices.c">Max Product Composition Of Cartesian Product Matrices</a></td>
+    </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b><i>Additional Combined Program: </i>This Program includes combined program for Cartesian Product, Max-Min Composition and Max-Min Composition of two fuzzy sets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Combined_Cartesian_Product_Max_Min_Composition_And_Max_Product_Composition_Of_Fuzzy_Sets.c">Combined Cartesian Product Max Min Composition And Max Product Composition Of Fuzzy Sets</a></td>
+    </tr>
+<tr>
+        <td style="border: 1px solid black; padding: 8px;"><b>Q12. Write a program in C to maximize F(X) = X<sup>2</sup> using Genetic Algorithm where 0 < x < 31</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Genetic_Algorithm_Program.c">Genetic Algorithm Program</a></td>
+    </tr>
 </table>
 
 ## Environment Setup (Setting up GCC)
