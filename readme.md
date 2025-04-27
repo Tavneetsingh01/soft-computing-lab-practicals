@@ -64,6 +64,18 @@
     </tr>
 </table>
 
+## Principles of Soft Computing Book
+
+This repository also includes the ["Principles of Soft Computing"](/Soft_Computing_Book/Principles%20of%20soft%20computing.pdf) book, which serves as a reference for understanding the theoretical concepts behind the implemented programs. The book covers topics such as:
+
+- Fuzzy Logic and Fuzzy Systems
+- Neural Networks
+- Genetic Algorithms
+- Hybrid Systems
+- Applications of Soft Computing
+
+The book is a valuable resource for students and professionals working on Soft Computing concepts and their practical implementations.
+
 ## Environment Setup (Setting up GCC)
 
 ### Windows (x86_64)
