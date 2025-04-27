@@ -1,4 +1,5 @@
-//
+// This Program includes combined program for Cartesian Product,
+// Max-Min Composition and Max-Min Composition of two fuzzy sets.
 // Created by tavneet on 4/27/25.
 #include <stdio.h>
 #include <stdlib.h>
