@@ -23,7 +23,7 @@
         <td style="border: 1px solid black; padding: 8px;"><a href="/Madaline_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c">Madaline Network For XOR Gate For Bipolar Inputs and Targets</a></td>
     </tr>
     <tr>
-        <td style="border: 1px solid black; padding: 8px;"><b><i>Additional Variant Oof Q3:</i> Design and simulate the behaviour of XOR Gate using Madaline network in C language for bipolar inputs and Binary targets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><b><i>Additional Variant of Q3:</i> Design and simulate the behaviour of XOR Gate using Madaline network in C language for bipolar inputs and Binary targets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Back_Propagation_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Binary_Targets.c">Madaline Network For XOR Gate For Bipolar Inputs and Binary Targets</a></td>
     </tr>
 <tr>
