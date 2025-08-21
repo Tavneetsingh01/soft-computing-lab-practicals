@@ -22,6 +22,10 @@
         <td style="border: 1px solid black; padding: 8px;"><b>Q3. Design and simulate the behaviour XOR Gate using Madaline network in C language for bipolar inputs and targets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Madaline_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c">Madaline Network For XOR Gate For Bipolar Inputs and Targets</a></td>
     </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;"><b><i>Additional Variant Oof Q3:</i> Design and simulate the behaviour of XOR Gate using Madaline network in C language for bipolar inputs and Binary targets.</b></td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Back_Propagation_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Binary_Targets.c">Madaline Network For XOR Gate For Bipolar Inputs and Binary Targets</a></td>
+    </tr>
 <tr>
         <td style="border: 1px solid black; padding: 8px;"><b>Q4. Design and Simulate the Behaviour of XOR Gate Using Back-Propagation Network in c for Bipolar Inputs and Targets.</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Back_Propogation_Network_For_XOR_Gate_For_Bipolar_Inputs_and_Targets.c">Back-Propagation Network For XOR Gate For Bipolar Inputs and Targets</a></td>
@@ -61,6 +65,40 @@
 <tr>
         <td style="border: 1px solid black; padding: 8px;"><b>Q12. Write a program in C to maximize F(X) = X<sup>2</sup> using Genetic Algorithm where 0 < x < 31</b></td>
         <td style="border: 1px solid black; padding: 8px;"><a href="/Genetic_Algorithm_Program.c">Genetic Algorithm Program</a></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;"><b><i>Extras:</i> Visualize common Neural Network activation functions (Step, Signum, Binary/Bipolar Sigmoid, ReLU) and generate graph data. Compile and run, then plot from the generated 'activation_functions.txt'.</b><br/>
+            <code>gcc Activation_functions_display.c -lm -o activation && ./activation</code><br/>
+            Use gnuplot (commands are printed by the program) or Python/matplotlib to view the curves.
+        </td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Activation_functions_display.c">Activation Functions Display</a></td>
+    </tr>
+</table>
+
+## Answer Keys for Lab Exam/Quiz
+
+Below are the available answer key PDFs for different groups. Click a link to view or download the file.
+
+<table style="border-collapse: collapse; width: 100%;">
+    <tr>
+        <th style="border: 1px solid black; padding: 8px;"><b>File Name</b></th>
+        <th style="border: 1px solid black; padding: 8px;"><b>Link</b></th>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_BX.pdf</td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Answer_Key_Lab_Exam_Quiz/(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_BX.pdf">Open</a></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_BY.pdf</td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Answer_Key_Lab_Exam_Quiz/(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_BY.pdf">Open</a></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_AX.pdf</td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Answer_Key_Lab_Exam_Quiz/(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_AX.pdf">Open</a></td>
+    </tr>
+    <tr>
+        <td style="border: 1px solid black; padding: 8px;">(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_AY.pdf</td>
+        <td style="border: 1px solid black; padding: 8px;"><a href="/Answer_Key_Lab_Exam_Quiz/(Answer_Key)_Soft_Computing_Lab_Exam_Quiz_For_Group_AY.pdf">Open</a></td>
     </tr>
 </table>
 
